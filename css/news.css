@@ -1,0 +1,33 @@
+.page-header {
+  background: url(../images/news.png) top center no-repeat;
+  background-size: cover;
+  text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h5,
+p {
+  margin: 10px 0;
+}
+
+
+textarea {
+  height: 300px;
+}
+
+.read-more-btn,
+.read-more-btn:hover {
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #1148d6;
+  color: #fff;
+}

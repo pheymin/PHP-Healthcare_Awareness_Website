@@ -1,0 +1,135 @@
+.page-header {
+    background: url(../images/article.png) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.tab{
+    border: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+.tab.active{
+    box-shadow: inset 0 -3px 0 #2b49eb;
+}
+
+.tab-group{
+    border-bottom: 1px solid #2b49eb;
+}
+
+.sr-only {
+    position: absolute;
+    top: -30em;
+}
+
+table{
+    width: 100%;
+}
+
+table.sortable td,
+table.sortable th {
+    padding: 0.125em 0.25em;
+    min-width: 8em;
+}
+
+table.sortable th {
+    font-weight: bold;
+    border-bottom: thin solid #888;
+    position: relative;
+    height: 4em;
+    background-color: #1148d6;
+}
+
+table.sortable th.no-sort {
+    padding-top: 0.35em;
+}
+
+table.sortable th:nth-child(5) {
+    width: 10em;
+}
+
+table.sortable th button,
+table.sortable th button:hover {
+    position: absolute !important;
+    padding: 4px !important;
+    margin: 1px !important;
+    font-size: 100% !important;
+    font-weight: bold !important;
+    background: transparent !important;
+    border: none !important;
+    display: inline !important;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+table.sortable th button span,
+table.sortable th button:hover span {
+    position: absolute;
+    right: 4px;
+}
+
+table.sortable th[aria-sort="descending"] span::after {
+    content: "▼";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
+
+table.sortable th[aria-sort="ascending"] span::after {
+    content: "▲";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
+
+table.show-unsorted-icon th:not([aria-sort]) button span::after,
+table.show-unsorted-icon th:not([aria-sort]) button:hover span::after {
+    content: "♢";
+    color: currentcolor;
+    font-size: 100%;
+    position: relative;
+    top: -3px;
+    left: -4px;
+}
+
+table.sortable td.num {
+    text-align: right;
+}
+
+table.sortable tbody tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+/* Focus and hover styling */
+
+table.sortable th button:focus,
+table.sortable th button:hover {
+    padding: 2px;
+    border: 2px solid currentcolor;
+    background-color: #e5f4ff;
+}
+
+table.sortable th button:focus span,
+table.sortable th button:hover span {
+    right: 2px;
+}
+
+table.sortable th:not([aria-sort]) button:focus span::after {
+    content: "▼";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}

@@ -1,0 +1,36 @@
+.page-header {
+    background: url(../images/online_consult.png) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2,
+h4,
+h5,
+p {
+    margin: 10px 0;
+}
+
+#sort-btn.active{
+    background-color: #1148d6;
+    color: #fff;
+}
+
+.slot {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}

@@ -1,0 +1,47 @@
+.page-header {
+    background: url(../images/event.png) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h5,p{
+    margin: 10px 0;
+}
+
+#save-btn{
+    position: relative;
+    float: right;
+    margin-top: -15rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#save-btn:hover{
+    color: #eadb2b;
+}
+
+.status, .active{
+    background-color: #1148d6;
+    color: #fff;
+}
+
+.btn{
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.btn-square{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 30px;
+    height: 30px;
+}

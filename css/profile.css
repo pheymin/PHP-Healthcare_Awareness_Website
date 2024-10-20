@@ -1,0 +1,35 @@
+.border {
+    border: 1px solid #2b49eb;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+input,
+select {
+    border: 1px solid #2b49eb !important;
+    border-radius: 0.5rem !important;
+}
+
+#toggle-password {
+    position: relative;
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fa-regular.fa-eye {
+    color: #4e5969;
+}
+
+.fa-regular.fa-eye:hover {
+    color: #000000;
+}
+
+.calender {
+    padding: 0 10px;
+}
+
+h5, p{
+    margin: 0.5rem 0;
+}
